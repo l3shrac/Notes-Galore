@@ -1,0 +1,2 @@
+CentOS uses an always-on wrapper around the IPTables firewall called "firewalld". By default, this firewall is extremely restrictive, only allowing access to SSH
+firewall-cmd --zone=public --add-port <port>/tcp
